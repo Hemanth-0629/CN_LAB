@@ -1,4 +1,4 @@
-" QUESTION:- Consider the 128- dimensional feature vectors (d=128) given in the “gender.csv” file. (2 classes, male and female)
+''' QUESTION:- Consider the 128- dimensional feature vectors (d=128) given in the “gender.csv” file. (2 classes, male and female)
 
 a) Use PCA to reduce the dimension from d to d‟. (Here d=128).
 
@@ -27,7 +27,7 @@ Number of test cases (first 10 in each class) = 20
 
 Number of training feature vectors ( remaining 390 in each class) = 390
 
-Number of reduced dimensions = d‟ (map 128 to d‟ features vector)"
+Number of reduced dimensions = d‟ (map 128 to d‟ features vector) '''
 
 import numpy as np
 import pandas as pd
