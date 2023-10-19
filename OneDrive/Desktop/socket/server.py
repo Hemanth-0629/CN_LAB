@@ -2,7 +2,7 @@ import socket
 import threading
 
 s = socket.socket()
-print ("Socket successfully created")
+print ("Socket is successfully created")
 
 port = 8000
 
