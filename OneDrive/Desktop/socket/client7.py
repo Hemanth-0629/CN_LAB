@@ -107,7 +107,7 @@ def main():
                 game = n.send("reset")  # Reset the game state
             except:
                 run = False
-                print("Couldn't get game")
+                print("Couldn't get the  game")
                 break
 
             font = pygame.font.SysFont("comicsans", 90)
