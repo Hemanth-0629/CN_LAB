@@ -81,6 +81,7 @@ def redrawWindow(win, game, p):
     pygame.display.update()  # Update the display
 
 btns = [Button("Rock", 50, 500, (0,0,0)), Button("Scissors", 250, 500, (255,0,0)), Button("Paper", 450, 500, (0,255,0))]
+
 # Create button objects
 
 def main():
