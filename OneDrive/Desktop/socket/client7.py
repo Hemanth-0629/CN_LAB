@@ -87,7 +87,7 @@ btns = [Button("Rock", 50, 500, (0,0,0)), Button("Scissors", 250, 500, (255,0,0)
 def main():
     run = True
     clock = pygame.time.Clock()
-    n = Network()  # Create a network connection
+    n = Network()                                 # Create a network connection
     player = int(n.getP())                        # Get the player's ID from the server
     print("You are player", player)
 
