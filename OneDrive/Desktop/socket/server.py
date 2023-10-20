@@ -7,7 +7,7 @@ print ("Socket is successfully created")
 port = 8000
 
 s.bind(('127.0.0.1', port))
-print ("socket binded to %s" %(port))
+print ("socket binded to the %s" %(port))
 
 def handle_clients(conn,addr):
     print(f"Connection received from {addr}")
