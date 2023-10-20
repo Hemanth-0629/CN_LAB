@@ -26,7 +26,7 @@ def start_server(server_host, server_port):
     S_socket.close()
 
 if __name__ == "__main__":
-    server_host = "127.0.0.1"                                           #Ip address
+    server_host = "127.0.0.1"                                               #Ip address
     server_port = 8000                                                      #Port no
     
     start_server(server_host, server_port)
