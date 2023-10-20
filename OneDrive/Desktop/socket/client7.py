@@ -104,7 +104,7 @@ def main():
             redrawWindow(win, game, player)
             pygame.time.delay(500)
             try:
-                game = n.send("reset")  # Reset the game state
+                game = n.send("reset")            # Reset the game state
             except:
                 run = False
                 print("Couldn't get the  game")
