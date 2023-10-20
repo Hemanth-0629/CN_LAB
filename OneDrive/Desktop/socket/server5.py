@@ -7,7 +7,7 @@ def start_server(server_host, server_port):
     
     print("Server listening...")
     
-    C_socket, C_address = S_socket.accept()                                    #Accepting the connection
+    C_socket, C_address = S_socket.accept()                                 #Accepting the connection
     print(f"Connection from {C_address}")
                               
     file_name = C_socket.recv(1024).decode()                                #Ask for the file Name
