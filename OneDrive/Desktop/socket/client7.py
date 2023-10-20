@@ -94,7 +94,7 @@ def main():
     while run:
         clock.tick(60)
         try:
-            game = n.send("get")  # Get the game state from the server
+            game = n.send("get")                      # Get the game state from the server
         except:
             run = False
             print("Couldn't get game")
