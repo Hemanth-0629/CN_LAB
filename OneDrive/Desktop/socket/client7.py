@@ -100,7 +100,7 @@ def main():
             print("Couldn't get game")
             break
 
-        if game.bothWent():  # Check if both players have made their moves
+        if game.bothWent():                    # Check if both players have made their moves
             redrawWindow(win, game, player)
             pygame.time.delay(500)
             try:
