@@ -88,7 +88,7 @@ def main():
     run = True
     clock = pygame.time.Clock()
     n = Network()  # Create a network connection
-    player = int(n.getP())  # Get the player's ID from the server
+    player = int(n.getP())                        # Get the player's ID from the server
     print("You are player", player)
 
     while run:
