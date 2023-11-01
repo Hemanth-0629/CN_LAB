@@ -200,7 +200,7 @@ int main() {
                     printf("%c ", j);
                 }
             }
-            printf("\n");
+             printf("\n");
         }
     }
 }
