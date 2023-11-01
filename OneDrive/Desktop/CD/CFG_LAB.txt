@@ -1,0 +1,11 @@
+V = S$
+S = aAS
+S = #
+A = ba
+A = SB
+B = cA
+B = S
+
+Note: starting symbol is V here.
+
+Your program should run for any CFG according to the given format.
