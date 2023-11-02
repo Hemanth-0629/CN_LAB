@@ -48,7 +48,7 @@ while True:
                 disconnected_socket.close()
                 for server in ['S1', 'S2', 'S3']:
                     for client_socket in clients[server]:
-                        client_socket.send("Disconnected.".encode())
+                        client_socket.send(" Disconnected. ".encode())
                         client_socket.close()
                     clients[server] = []
     else:
