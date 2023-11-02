@@ -52,5 +52,5 @@ while True:
                         client_socket.close()
                     clients[server] = []
     else:
-        client_socket.send("Invalid server name.".encode())
+        client_socket.send(" Invalid server name. ".encode())
         client_socket.close()
