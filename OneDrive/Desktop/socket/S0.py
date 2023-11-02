@@ -29,7 +29,7 @@ while True:
         if client_name == 'S0':
             if len(clients[client_name]) > 1:
                 old_client_socket = clients[client_name].pop(0)
-                old_client_socket.send("Disconnected.".encode())
+                old_client_socket.send(" Disconnected. ".encode())
                 old_client_socket.close()
         elif client_name == 'S1':
             if len(clients[client_name]) > 1:
