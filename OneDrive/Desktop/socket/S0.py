@@ -3,7 +3,7 @@ import socket
 MAX_CONNECTIONS = 1
 PORT = 12345
 
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket = socket.socket(socket.AF_INET,  socket.SOCK_STREAM)
 server_socket.bind(('localhost', PORT))
 server_socket.listen(MAX_CONNECTIONS)
 
