@@ -11,3 +11,4 @@ socket.send(client_name.encode())
 print("Connected to the server.")
 
 socket.close()
+
