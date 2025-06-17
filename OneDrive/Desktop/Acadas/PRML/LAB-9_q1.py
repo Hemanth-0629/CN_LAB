@@ -20,7 +20,6 @@ y_test = labels.iloc[780:]
 mean_male = X_train[y_train == "male"].mean()
 mean_female = X_train[y_train == "female"].mean()
 
-
 # Compute within-class scatter matrix Sw and between-class scatter matrix Sb
 Sw = ((X_train[y_train == "male"] - mean_male).T @ (X_train[y_train == "male"] - mean_male) +
       (X_train[y_train == "female"] - mean_female).T @ (X_train[y_train == "female"] - mean_female))
