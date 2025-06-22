@@ -81,6 +81,7 @@ X_test_male_pca = (X_test_male - mean_male).dot(eigenvectors[:, :d_prime])
 X_train_female_pca = (X_train_female - mean_female).dot(eigenvectors[:, :d_prime])
 X_test_female_pca = (X_test_female - mean_female).dot(eigenvectors[:, :d_prime])
 
+
 # Combine the reduced-dimension training data and labels
 X_train_pca = np.vstack((X_train_male_pca, X_train_female_pca))
 y_train_pca = np.concatenate((y_train_male, y_train_female))
