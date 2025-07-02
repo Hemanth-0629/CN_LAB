@@ -92,7 +92,6 @@ classifier = GaussianNB()
 # Train the classifier on the reduced-dimensional training data
 classifier.fit(X_train_pca, y_train_pca)
 
-
 # Test the classifier on the reduced-dimensional test data
 X_test_pca = np.vstack((X_test_male_pca, X_test_female_pca))
 y_test_pca = np.concatenate((y_test_male, y_test_female))
