@@ -88,7 +88,6 @@ y_train_pca = np.concatenate((y_train_male, y_train_female))
 # Classification (Naive Bayes classifier)
 classifier = GaussianNB()
 
-
 # Train the classifier on the reduced-dimensional training data
 classifier.fit(X_train_pca, y_train_pca)
 
