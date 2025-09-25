@@ -61,4 +61,3 @@ accuracy = np.mean(predictions == y_test)
 print("Accuracy:", accuracy)
 
 
-
