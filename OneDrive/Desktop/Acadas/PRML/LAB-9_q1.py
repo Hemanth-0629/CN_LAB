@@ -57,6 +57,7 @@ def bayes_classifier(X_train, y_train, X_test):
 predictions = bayes_classifier(X_train_lda, y_train, X_test_lda)
 
 
+
 # Calculate accuracy
 accuracy = np.mean(predictions == y_test)
 print("Accuracy:", accuracy)
