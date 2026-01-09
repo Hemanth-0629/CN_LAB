@@ -96,7 +96,6 @@ X_test_pca = np.vstack((X_test_male_pca, X_test_female_pca))
 y_test_pca = np.concatenate((y_test_male, y_test_female))
 y_pred = classifier.predict(X_test_pca)
 
-
 # Calculate the accuracy of the classifier
 accuracy = accuracy_score(y_test_pca, y_pred)
 print(f"Accuracy: {accuracy * 100:.2f}%")
