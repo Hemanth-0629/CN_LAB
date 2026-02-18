@@ -100,4 +100,3 @@ y_pred = classifier.predict(X_test_pca)
 accuracy = accuracy_score(y_test_pca, y_pred)
 print(f"Accuracy: {accuracy * 100:.2f}%")
 
-
